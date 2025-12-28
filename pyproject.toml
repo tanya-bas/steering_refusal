@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+name = "steering_refusal"
+version = "0.1.0"
+description = ""
+authors = ["Tanya Bas <tetianabass17@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+litellm = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
